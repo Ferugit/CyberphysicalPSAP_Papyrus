@@ -1,0 +1,1519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UPM.IoT_DSL_AF2.IoT_DSL_AF2DomainModel.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoT_DSL_AF2</value>
+    <comment>Description for DslLibrary &apos;IoT_DSL_AF2&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoT_DSL_AF2DomainModel.DisplayName" xml:space="preserve">
+    <value>IoT_DSL_AF2</value>
+    <comment>DisplayName for DslLibrary &apos;IoT_DSL_AF2&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2Model.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;MyIoTDSLAF2Model&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2Model.DisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model</value>
+    <comment>DisplayName for DomainClass &apos;MyIoTDSLAF2Model&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2Model/Name.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2Model.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;MyIoTDSLAF2Model&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2Model/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;MyIoTDSLAF2Model&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Controller.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Controller</value>
+    <comment>Description for DomainClass &apos;Controller&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Controller.DisplayName" xml:space="preserve">
+    <value>Controller</value>
+    <comment>DisplayName for DomainClass &apos;Controller&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Controller/Identifier.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Controller.Identifier</value>
+    <comment>Description for DomainProperty &apos;Identifier&apos; on DomainClass &apos;Controller&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Controller/Identifier.DisplayName" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>DisplayName for DomainProperty &apos;Identifier&apos; on DomainClass &apos;Controller&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDevice.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDevice</value>
+    <comment>Description for DomainClass &apos;IoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDevice.DisplayName" xml:space="preserve">
+    <value>Io TDevice</value>
+    <comment>DisplayName for DomainClass &apos;IoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDevice/Identifier.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDevice.Identifier</value>
+    <comment>Description for DomainProperty &apos;Identifier&apos; on DomainClass &apos;IoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDevice/Identifier.DisplayName" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>DisplayName for DomainProperty &apos;Identifier&apos; on DomainClass &apos;IoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDevice/Location.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDevice.Location</value>
+    <comment>Description for DomainProperty &apos;Location&apos; on DomainClass &apos;IoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDevice/Location.DisplayName" xml:space="preserve">
+    <value>Location</value>
+    <comment>DisplayName for DomainProperty &apos;Location&apos; on DomainClass &apos;IoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDevice/Name.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDevice.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;IoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDevice/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;IoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Sensor.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Sensor</value>
+    <comment>Description for DomainClass &apos;Sensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Sensor.DisplayName" xml:space="preserve">
+    <value>Sensor</value>
+    <comment>DisplayName for DomainClass &apos;Sensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Sensor/Identifier.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Sensor.Identifier</value>
+    <comment>Description for DomainProperty &apos;Identifier&apos; on DomainClass &apos;Sensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Sensor/Identifier.DisplayName" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>DisplayName for DomainProperty &apos;Identifier&apos; on DomainClass &apos;Sensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Measurement.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Measurement</value>
+    <comment>Description for DomainClass &apos;Measurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Measurement.DisplayName" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>DisplayName for DomainClass &apos;Measurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Measurement/Topic.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Measurement.Topic</value>
+    <comment>Description for DomainProperty &apos;Topic&apos; on DomainClass &apos;Measurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Measurement/Topic.DisplayName" xml:space="preserve">
+    <value>Topic</value>
+    <comment>DisplayName for DomainProperty &apos;Topic&apos; on DomainClass &apos;Measurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Measurement/Identifier.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Measurement.Identifier</value>
+    <comment>Description for DomainProperty &apos;Identifier&apos; on DomainClass &apos;Measurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Measurement/Identifier.DisplayName" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>DisplayName for DomainProperty &apos;Identifier&apos; on DomainClass &apos;Measurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Measurement/Date.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Measurement.Date</value>
+    <comment>Description for DomainProperty &apos;Date&apos; on DomainClass &apos;Measurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Measurement/Date.DisplayName" xml:space="preserve">
+    <value>Date</value>
+    <comment>DisplayName for DomainProperty &apos;Date&apos; on DomainClass &apos;Measurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Measurement/Hour.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Measurement.Hour</value>
+    <comment>Description for DomainProperty &apos;Hour&apos; on DomainClass &apos;Measurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Measurement/Hour.DisplayName" xml:space="preserve">
+    <value>Hour</value>
+    <comment>DisplayName for DomainProperty &apos;Hour&apos; on DomainClass &apos;Measurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Actuator.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Actuator</value>
+    <comment>Description for DomainClass &apos;Actuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Actuator.DisplayName" xml:space="preserve">
+    <value>Actuator</value>
+    <comment>DisplayName for DomainClass &apos;Actuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Actuator/Identifier.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Actuator.Identifier</value>
+    <comment>Description for DomainProperty &apos;Identifier&apos; on DomainClass &apos;Actuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Actuator/Identifier.DisplayName" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>DisplayName for DomainProperty &apos;Identifier&apos; on DomainClass &apos;Actuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Values.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Values</value>
+    <comment>Description for DomainClass &apos;Values&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Values.DisplayName" xml:space="preserve">
+    <value>Values</value>
+    <comment>DisplayName for DomainClass &apos;Values&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Values/Name.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Values.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Values&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Values/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Values&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Values/Scale.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Values.Scale</value>
+    <comment>Description for DomainProperty &apos;Scale&apos; on DomainClass &apos;Values&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Values/Scale.DisplayName" xml:space="preserve">
+    <value>Scale</value>
+    <comment>DisplayName for DomainProperty &apos;Scale&apos; on DomainClass &apos;Values&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Action.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Action</value>
+    <comment>Description for DomainClass &apos;Action&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Action.DisplayName" xml:space="preserve">
+    <value>Action</value>
+    <comment>DisplayName for DomainClass &apos;Action&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Action/Name.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Action.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Action&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Action/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Action&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Action/Description.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Action.Description</value>
+    <comment>Description for DomainProperty &apos;Description&apos; on DomainClass &apos;Action&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Action/Description.DisplayName" xml:space="preserve">
+    <value>Description</value>
+    <comment>DisplayName for DomainProperty &apos;Description&apos; on DomainClass &apos;Action&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Alarm.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Alarm</value>
+    <comment>Description for DomainClass &apos;Alarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Alarm.DisplayName" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>DisplayName for DomainClass &apos;Alarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Alarm/Name.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Alarm.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Alarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Alarm/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Alarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Alarm/Condition.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Alarm.Condition</value>
+    <comment>Description for DomainProperty &apos;Condition&apos; on DomainClass &apos;Alarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Alarm/Condition.DisplayName" xml:space="preserve">
+    <value>Condition</value>
+    <comment>DisplayName for DomainProperty &apos;Condition&apos; on DomainClass &apos;Alarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Alarm/Advertence.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Alarm.Advertence</value>
+    <comment>Description for DomainProperty &apos;Advertence&apos; on DomainClass &apos;Alarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Alarm/Advertence.DisplayName" xml:space="preserve">
+    <value>Advertence</value>
+    <comment>DisplayName for DomainProperty &apos;Advertence&apos; on DomainClass &apos;Alarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Drone.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Drone</value>
+    <comment>Description for DomainClass &apos;Drone&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Drone.DisplayName" xml:space="preserve">
+    <value>Drone</value>
+    <comment>DisplayName for DomainClass &apos;Drone&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Bus.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Bus</value>
+    <comment>Description for DomainClass &apos;Bus&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Bus.DisplayName" xml:space="preserve">
+    <value>Bus</value>
+    <comment>DisplayName for DomainClass &apos;Bus&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.GPS.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.GPS</value>
+    <comment>Description for DomainClass &apos;GPS&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.GPS.DisplayName" xml:space="preserve">
+    <value>GPS</value>
+    <comment>DisplayName for DomainClass &apos;GPS&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.AirQuality.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.AirQuality</value>
+    <comment>Description for DomainClass &apos;AirQuality&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.AirQuality.DisplayName" xml:space="preserve">
+    <value>Air Quality</value>
+    <comment>DisplayName for DomainClass &apos;AirQuality&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Accelerometer.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.Accelerometer</value>
+    <comment>Description for DomainClass &apos;Accelerometer&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.Accelerometer.DisplayName" xml:space="preserve">
+    <value>Accelerometer</value>
+    <comment>DisplayName for DomainClass &apos;Accelerometer&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice</value>
+    <comment>Description for DomainClass &apos;MyIoTDSLAF2ModelHasIoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice.DisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model Has Io TDevice</value>
+    <comment>DisplayName for DomainClass &apos;MyIoTDSLAF2ModelHasIoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice/MyIoTDSLAF2Model.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice.MyIoTDSLAF2Model</value>
+    <comment>Description for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasIoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice/MyIoTDSLAF2Model.DisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model</value>
+    <comment>DisplayName for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasIoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice/MyIoTDSLAF2Model.PropertyDisplayName" xml:space="preserve">
+    <value>Io TDevice</value>
+    <comment>PropertyDisplayName for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasIoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice/IoTDevice.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice.IoTDevice</value>
+    <comment>Description for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasIoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice/IoTDevice.DisplayName" xml:space="preserve">
+    <value>Io TDevice</value>
+    <comment>DisplayName for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasIoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasIoTDevice/IoTDevice.PropertyDisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasIoTDevice&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasController.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDeviceHasController</value>
+    <comment>Description for DomainClass &apos;IoTDeviceHasController&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasController.DisplayName" xml:space="preserve">
+    <value>Io TDevice Has Controller</value>
+    <comment>DisplayName for DomainClass &apos;IoTDeviceHasController&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasController/IoTDevice.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDeviceHasController.IoTDevice</value>
+    <comment>Description for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;IoTDeviceHasController&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasController/IoTDevice.DisplayName" xml:space="preserve">
+    <value>Io TDevice</value>
+    <comment>DisplayName for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;IoTDeviceHasController&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasController/IoTDevice.PropertyDisplayName" xml:space="preserve">
+    <value>Controller</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;IoTDeviceHasController&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasController/Controller.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDeviceHasController.Controller</value>
+    <comment>Description for DomainRole &apos;Controller&apos; on DomainRelationship &apos;IoTDeviceHasController&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasController/Controller.DisplayName" xml:space="preserve">
+    <value>Controller</value>
+    <comment>DisplayName for DomainRole &apos;Controller&apos; on DomainRelationship &apos;IoTDeviceHasController&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasController/Controller.PropertyDisplayName" xml:space="preserve">
+    <value>Io TDevice</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Controller&apos; on DomainRelationship &apos;IoTDeviceHasController&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsSensor.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerMonitorsSensor</value>
+    <comment>Description for DomainClass &apos;ControllerMonitorsSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsSensor.DisplayName" xml:space="preserve">
+    <value>Controller Monitors Sensor</value>
+    <comment>DisplayName for DomainClass &apos;ControllerMonitorsSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsSensor/Controller.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerMonitorsSensor.Controller</value>
+    <comment>Description for DomainRole &apos;Controller&apos; on DomainRelationship &apos;ControllerMonitorsSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsSensor/Controller.DisplayName" xml:space="preserve">
+    <value>Controller</value>
+    <comment>DisplayName for DomainRole &apos;Controller&apos; on DomainRelationship &apos;ControllerMonitorsSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsSensor/Controller.PropertyDisplayName" xml:space="preserve">
+    <value>Sensor</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Controller&apos; on DomainRelationship &apos;ControllerMonitorsSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsSensor/Sensor.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerMonitorsSensor.Sensor</value>
+    <comment>Description for DomainRole &apos;Sensor&apos; on DomainRelationship &apos;ControllerMonitorsSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsSensor/Sensor.DisplayName" xml:space="preserve">
+    <value>Sensor</value>
+    <comment>DisplayName for DomainRole &apos;Sensor&apos; on DomainRelationship &apos;ControllerMonitorsSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsSensor/Sensor.PropertyDisplayName" xml:space="preserve">
+    <value>Controller</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Sensor&apos; on DomainRelationship &apos;ControllerMonitorsSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasSensor.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDeviceHasSensor</value>
+    <comment>Description for DomainClass &apos;IoTDeviceHasSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasSensor.DisplayName" xml:space="preserve">
+    <value>Io TDevice Has Sensor</value>
+    <comment>DisplayName for DomainClass &apos;IoTDeviceHasSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasSensor/IoTDevice.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDeviceHasSensor.IoTDevice</value>
+    <comment>Description for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;IoTDeviceHasSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasSensor/IoTDevice.DisplayName" xml:space="preserve">
+    <value>Io TDevice</value>
+    <comment>DisplayName for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;IoTDeviceHasSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasSensor/IoTDevice.PropertyDisplayName" xml:space="preserve">
+    <value>Sensor</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;IoTDeviceHasSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasSensor/Sensor.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDeviceHasSensor.Sensor</value>
+    <comment>Description for DomainRole &apos;Sensor&apos; on DomainRelationship &apos;IoTDeviceHasSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasSensor/Sensor.DisplayName" xml:space="preserve">
+    <value>Sensor</value>
+    <comment>DisplayName for DomainRole &apos;Sensor&apos; on DomainRelationship &apos;IoTDeviceHasSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasSensor/Sensor.PropertyDisplayName" xml:space="preserve">
+    <value>Io TDevice</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Sensor&apos; on DomainRelationship &apos;IoTDeviceHasSensor&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorMonitorsMesurement.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.SensorMonitorsMesurement</value>
+    <comment>Description for DomainClass &apos;SensorMonitorsMesurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorMonitorsMesurement.DisplayName" xml:space="preserve">
+    <value>Sensor Monitors Mesurement</value>
+    <comment>DisplayName for DomainClass &apos;SensorMonitorsMesurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorMonitorsMesurement/Sensor.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.SensorMonitorsMesurement.Sensor</value>
+    <comment>Description for DomainRole &apos;Sensor&apos; on DomainRelationship &apos;SensorMonitorsMesurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorMonitorsMesurement/Sensor.DisplayName" xml:space="preserve">
+    <value>Sensor</value>
+    <comment>DisplayName for DomainRole &apos;Sensor&apos; on DomainRelationship &apos;SensorMonitorsMesurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorMonitorsMesurement/Sensor.PropertyDisplayName" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Sensor&apos; on DomainRelationship &apos;SensorMonitorsMesurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorMonitorsMesurement/Measurement.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.SensorMonitorsMesurement.Measurement</value>
+    <comment>Description for DomainRole &apos;Measurement&apos; on DomainRelationship &apos;SensorMonitorsMesurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorMonitorsMesurement/Measurement.DisplayName" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>DisplayName for DomainRole &apos;Measurement&apos; on DomainRelationship &apos;SensorMonitorsMesurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorMonitorsMesurement/Measurement.PropertyDisplayName" xml:space="preserve">
+    <value>Sensor</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Measurement&apos; on DomainRelationship &apos;SensorMonitorsMesurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasActuator.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDeviceHasActuator</value>
+    <comment>Description for DomainClass &apos;IoTDeviceHasActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasActuator.DisplayName" xml:space="preserve">
+    <value>Io TDevice Has Actuator</value>
+    <comment>DisplayName for DomainClass &apos;IoTDeviceHasActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasActuator/IoTDevice.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDeviceHasActuator.IoTDevice</value>
+    <comment>Description for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;IoTDeviceHasActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasActuator/IoTDevice.DisplayName" xml:space="preserve">
+    <value>Io TDevice</value>
+    <comment>DisplayName for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;IoTDeviceHasActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasActuator/IoTDevice.PropertyDisplayName" xml:space="preserve">
+    <value>Actuator</value>
+    <comment>PropertyDisplayName for DomainRole &apos;IoTDevice&apos; on DomainRelationship &apos;IoTDeviceHasActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasActuator/Actuator.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDeviceHasActuator.Actuator</value>
+    <comment>Description for DomainRole &apos;Actuator&apos; on DomainRelationship &apos;IoTDeviceHasActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasActuator/Actuator.DisplayName" xml:space="preserve">
+    <value>Actuator</value>
+    <comment>DisplayName for DomainRole &apos;Actuator&apos; on DomainRelationship &apos;IoTDeviceHasActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceHasActuator/Actuator.PropertyDisplayName" xml:space="preserve">
+    <value>Io TDevice</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Actuator&apos; on DomainRelationship &apos;IoTDeviceHasActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsActuator.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerMonitorsActuator</value>
+    <comment>Description for DomainClass &apos;ControllerMonitorsActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsActuator.DisplayName" xml:space="preserve">
+    <value>Controller Monitors Actuator</value>
+    <comment>DisplayName for DomainClass &apos;ControllerMonitorsActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsActuator/Controller.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerMonitorsActuator.Controller</value>
+    <comment>Description for DomainRole &apos;Controller&apos; on DomainRelationship &apos;ControllerMonitorsActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsActuator/Controller.DisplayName" xml:space="preserve">
+    <value>Controller</value>
+    <comment>DisplayName for DomainRole &apos;Controller&apos; on DomainRelationship &apos;ControllerMonitorsActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsActuator/Controller.PropertyDisplayName" xml:space="preserve">
+    <value>Actuator</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Controller&apos; on DomainRelationship &apos;ControllerMonitorsActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsActuator/Actuator.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerMonitorsActuator.Actuator</value>
+    <comment>Description for DomainRole &apos;Actuator&apos; on DomainRelationship &apos;ControllerMonitorsActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsActuator/Actuator.DisplayName" xml:space="preserve">
+    <value>Actuator</value>
+    <comment>DisplayName for DomainRole &apos;Actuator&apos; on DomainRelationship &apos;ControllerMonitorsActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsActuator/Actuator.PropertyDisplayName" xml:space="preserve">
+    <value>Controller</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Actuator&apos; on DomainRelationship &apos;ControllerMonitorsActuator&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement</value>
+    <comment>Description for DomainClass &apos;MyIoTDSLAF2ModelHasMeasurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement.DisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model Has Measurement</value>
+    <comment>DisplayName for DomainClass &apos;MyIoTDSLAF2ModelHasMeasurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement/MyIoTDSLAF2Model.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement.MyIoTDSLAF2Model</value>
+    <comment>Description for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasMeasurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement/MyIoTDSLAF2Model.DisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model</value>
+    <comment>DisplayName for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasMeasurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement/MyIoTDSLAF2Model.PropertyDisplayName" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>PropertyDisplayName for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasMeasurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement/Measurement.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement.Measurement</value>
+    <comment>Description for DomainRole &apos;Measurement&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasMeasurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement/Measurement.DisplayName" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>DisplayName for DomainRole &apos;Measurement&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasMeasurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasMeasurement/Measurement.PropertyDisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Measurement&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasMeasurement&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MeasurementHasValues.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MeasurementHasValues</value>
+    <comment>Description for DomainClass &apos;MeasurementHasValues&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MeasurementHasValues.DisplayName" xml:space="preserve">
+    <value>Measurement Has Values</value>
+    <comment>DisplayName for DomainClass &apos;MeasurementHasValues&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MeasurementHasValues/Measurement.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MeasurementHasValues.Measurement</value>
+    <comment>Description for DomainRole &apos;Measurement&apos; on DomainRelationship &apos;MeasurementHasValues&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MeasurementHasValues/Measurement.DisplayName" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>DisplayName for DomainRole &apos;Measurement&apos; on DomainRelationship &apos;MeasurementHasValues&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MeasurementHasValues/Measurement.PropertyDisplayName" xml:space="preserve">
+    <value>Values</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Measurement&apos; on DomainRelationship &apos;MeasurementHasValues&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MeasurementHasValues/Values.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MeasurementHasValues.Values</value>
+    <comment>Description for DomainRole &apos;Values&apos; on DomainRelationship &apos;MeasurementHasValues&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MeasurementHasValues/Values.DisplayName" xml:space="preserve">
+    <value>Values</value>
+    <comment>DisplayName for DomainRole &apos;Values&apos; on DomainRelationship &apos;MeasurementHasValues&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MeasurementHasValues/Values.PropertyDisplayName" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Values&apos; on DomainRelationship &apos;MeasurementHasValues&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction</value>
+    <comment>Description for DomainClass &apos;MyIoTDSLAF2ModelHasAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction.DisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model Has Action</value>
+    <comment>DisplayName for DomainClass &apos;MyIoTDSLAF2ModelHasAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction/MyIoTDSLAF2Model.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction.MyIoTDSLAF2Model</value>
+    <comment>Description for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction/MyIoTDSLAF2Model.DisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model</value>
+    <comment>DisplayName for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction/MyIoTDSLAF2Model.PropertyDisplayName" xml:space="preserve">
+    <value>Action</value>
+    <comment>PropertyDisplayName for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction/Action.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction.Action</value>
+    <comment>Description for DomainRole &apos;Action&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction/Action.DisplayName" xml:space="preserve">
+    <value>Action</value>
+    <comment>DisplayName for DomainRole &apos;Action&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAction/Action.PropertyDisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Action&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorPerformsAction.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ActuatorPerformsAction</value>
+    <comment>Description for DomainClass &apos;ActuatorPerformsAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorPerformsAction.DisplayName" xml:space="preserve">
+    <value>Actuator Performs Action</value>
+    <comment>DisplayName for DomainClass &apos;ActuatorPerformsAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorPerformsAction/Actuator.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ActuatorPerformsAction.Actuator</value>
+    <comment>Description for DomainRole &apos;Actuator&apos; on DomainRelationship &apos;ActuatorPerformsAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorPerformsAction/Actuator.DisplayName" xml:space="preserve">
+    <value>Actuator</value>
+    <comment>DisplayName for DomainRole &apos;Actuator&apos; on DomainRelationship &apos;ActuatorPerformsAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorPerformsAction/Actuator.PropertyDisplayName" xml:space="preserve">
+    <value>Action</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Actuator&apos; on DomainRelationship &apos;ActuatorPerformsAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorPerformsAction/Action.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ActuatorPerformsAction.Action</value>
+    <comment>Description for DomainRole &apos;Action&apos; on DomainRelationship &apos;ActuatorPerformsAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorPerformsAction/Action.DisplayName" xml:space="preserve">
+    <value>Action</value>
+    <comment>DisplayName for DomainRole &apos;Action&apos; on DomainRelationship &apos;ActuatorPerformsAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorPerformsAction/Action.PropertyDisplayName" xml:space="preserve">
+    <value>Actuator</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Action&apos; on DomainRelationship &apos;ActuatorPerformsAction&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm</value>
+    <comment>Description for DomainClass &apos;MyIoTDSLAF2ModelHasAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm.DisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model Has Alarm</value>
+    <comment>DisplayName for DomainClass &apos;MyIoTDSLAF2ModelHasAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm/MyIoTDSLAF2Model.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm.MyIoTDSLAF2Model</value>
+    <comment>Description for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm/MyIoTDSLAF2Model.DisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model</value>
+    <comment>DisplayName for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm/MyIoTDSLAF2Model.PropertyDisplayName" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>PropertyDisplayName for DomainRole &apos;MyIoTDSLAF2Model&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm/Alarm.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm.Alarm</value>
+    <comment>Description for DomainRole &apos;Alarm&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm/Alarm.DisplayName" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>DisplayName for DomainRole &apos;Alarm&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MyIoTDSLAF2ModelHasAlarm/Alarm.PropertyDisplayName" xml:space="preserve">
+    <value>My Io TDSLAF2 Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Alarm&apos; on DomainRelationship &apos;MyIoTDSLAF2ModelHasAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerTriggersAlarm.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerTriggersAlarm</value>
+    <comment>Description for DomainClass &apos;ControllerTriggersAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerTriggersAlarm.DisplayName" xml:space="preserve">
+    <value>Controller Triggers Alarm</value>
+    <comment>DisplayName for DomainClass &apos;ControllerTriggersAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerTriggersAlarm/Controller.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerTriggersAlarm.Controller</value>
+    <comment>Description for DomainRole &apos;Controller&apos; on DomainRelationship &apos;ControllerTriggersAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerTriggersAlarm/Controller.DisplayName" xml:space="preserve">
+    <value>Controller</value>
+    <comment>DisplayName for DomainRole &apos;Controller&apos; on DomainRelationship &apos;ControllerTriggersAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerTriggersAlarm/Controller.PropertyDisplayName" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Controller&apos; on DomainRelationship &apos;ControllerTriggersAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerTriggersAlarm/Alarm.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerTriggersAlarm.Alarm</value>
+    <comment>Description for DomainRole &apos;Alarm&apos; on DomainRelationship &apos;ControllerTriggersAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerTriggersAlarm/Alarm.DisplayName" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>DisplayName for DomainRole &apos;Alarm&apos; on DomainRelationship &apos;ControllerTriggersAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerTriggersAlarm/Alarm.PropertyDisplayName" xml:space="preserve">
+    <value>Controller</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Alarm&apos; on DomainRelationship &apos;ControllerTriggersAlarm&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoTDeviceShape</value>
+    <comment>Description for DomainClass &apos;IoTDeviceShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoTDeviceShape.DisplayName" xml:space="preserve">
+    <value>Io TDevice Shape</value>
+    <comment>DisplayName for DomainClass &apos;IoTDeviceShape&apos;</comment>
+  </data>
+  <data name="IoTDeviceShapeIoTDeviceDefaultText" xml:space="preserve">
+    <value>IoTDevice</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IoTDeviceShapeNameDefaultText" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IoTDeviceShapeLocationDefaultText" xml:space="preserve">
+    <value>Location</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IoTDeviceShapeIdentifierDefaultText" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MeasuremetShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.MeasuremetShape</value>
+    <comment>Description for DomainClass &apos;MeasuremetShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.MeasuremetShape.DisplayName" xml:space="preserve">
+    <value>Measuremet Shape</value>
+    <comment>DisplayName for DomainClass &apos;MeasuremetShape&apos;</comment>
+  </data>
+  <data name="MeasuremetShapeValuekindTitle" xml:space="preserve">
+    <value></value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="MeasuremetShapeMeasurementDefaultText" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MeasuremetShapeTopicDefaultText" xml:space="preserve">
+    <value>Topic</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MeasuremetShapeIdentifierDefaultText" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MeasuremetShapeDateDefaultText" xml:space="preserve">
+    <value>Date</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MeasuremetShapeHourDefaultText" xml:space="preserve">
+    <value>Hour</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ActuatorImageShape</value>
+    <comment>Description for DomainClass &apos;ActuatorImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorImageShape.DisplayName" xml:space="preserve">
+    <value>Actuator Image Shape</value>
+    <comment>DisplayName for DomainClass &apos;ActuatorImageShape&apos;</comment>
+  </data>
+  <data name="ActuatorImageShapeActuatorDefaultText" xml:space="preserve">
+    <value>Actuator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="ActuatorImageShapeIdentifierDefaultText" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ValueImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ValueImageShape</value>
+    <comment>Description for DomainClass &apos;ValueImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ValueImageShape.DisplayName" xml:space="preserve">
+    <value>Value Image Shape</value>
+    <comment>DisplayName for DomainClass &apos;ValueImageShape&apos;</comment>
+  </data>
+  <data name="ValueImageShapeNameDefaultText" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="ValueImageShapeScaleDefaultText" xml:space="preserve">
+    <value>Scale</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerImageShape</value>
+    <comment>Description for DomainClass &apos;ControllerImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerImageShape.DisplayName" xml:space="preserve">
+    <value>Controller Image Shape</value>
+    <comment>DisplayName for DomainClass &apos;ControllerImageShape&apos;</comment>
+  </data>
+  <data name="ControllerImageShapeControllerDefaultText" xml:space="preserve">
+    <value>Controller</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="ControllerImageShapeIdentifierDefaultText" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.SensorImageShape</value>
+    <comment>Description for DomainClass &apos;SensorImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorImageShape.DisplayName" xml:space="preserve">
+    <value>Sensor Image Shape</value>
+    <comment>DisplayName for DomainClass &apos;SensorImageShape&apos;</comment>
+  </data>
+  <data name="SensorImageShapeSensorDefaultText" xml:space="preserve">
+    <value>Sensor</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="SensorImageShapeIdentifierDefaultText" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActionImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ActionImageShape</value>
+    <comment>Description for DomainClass &apos;ActionImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActionImageShape.DisplayName" xml:space="preserve">
+    <value>Action Image Shape</value>
+    <comment>DisplayName for DomainClass &apos;ActionImageShape&apos;</comment>
+  </data>
+  <data name="ActionImageShapeNameDefaultText" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="ActionImageShapeDescriptionDefaultText" xml:space="preserve">
+    <value>Description</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="ActionImageShapeActionDefaultText" xml:space="preserve">
+    <value>Action</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.AlarmImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.AlarmImageShape</value>
+    <comment>Description for DomainClass &apos;AlarmImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.AlarmImageShape.DisplayName" xml:space="preserve">
+    <value>Alarm Image Shape</value>
+    <comment>DisplayName for DomainClass &apos;AlarmImageShape&apos;</comment>
+  </data>
+  <data name="AlarmImageShapeAlarmDefaultText" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="AlarmImageShapeConditionDefaultText" xml:space="preserve">
+    <value>Condition</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="AlarmImageShapeNameDefaultText" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="AlarmImageShapeAdvertenceDefaultText" xml:space="preserve">
+    <value>Advertence</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.DroneImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.DroneImageShape</value>
+    <comment>Description for DomainClass &apos;DroneImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.DroneImageShape.DisplayName" xml:space="preserve">
+    <value>Drone Image Shape</value>
+    <comment>DisplayName for DomainClass &apos;DroneImageShape&apos;</comment>
+  </data>
+  <data name="DroneImageShapeNameDefaultText" xml:space="preserve">
+    <value>Drone</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="DroneImageShapeIdentifierDefaultText" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="DroneImageShapeLocationDefaultText" xml:space="preserve">
+    <value>Location</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.BusImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.BusImageShape</value>
+    <comment>Description for DomainClass &apos;BusImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.BusImageShape.DisplayName" xml:space="preserve">
+    <value>Bus Image Shape</value>
+    <comment>DisplayName for DomainClass &apos;BusImageShape&apos;</comment>
+  </data>
+  <data name="BusImageShapeNameDefaultText" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="BusImageShapeIdentifierDefaultText" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="BusImageShapeLocationDefaultText" xml:space="preserve">
+    <value>Location</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.GPSImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.GPSImageShape</value>
+    <comment>Description for DomainClass &apos;GPSImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.GPSImageShape.DisplayName" xml:space="preserve">
+    <value>GPSImage Shape</value>
+    <comment>DisplayName for DomainClass &apos;GPSImageShape&apos;</comment>
+  </data>
+  <data name="GPSImageShapeIdentifierDefaultText" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="GPSImageShapeGPSDefaultText" xml:space="preserve">
+    <value>GPS</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.AirQualityImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.AirQualityImageShape</value>
+    <comment>Description for DomainClass &apos;AirQualityImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.AirQualityImageShape.DisplayName" xml:space="preserve">
+    <value>Air Quality Image Shape</value>
+    <comment>DisplayName for DomainClass &apos;AirQualityImageShape&apos;</comment>
+  </data>
+  <data name="AirQualityImageShapeIdentifierDefaultText" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="AirQualityImageShapeAirQualityDefaultText" xml:space="preserve">
+    <value>AirQuality</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.AccelerometerImageShape.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.AccelerometerImageShape</value>
+    <comment>Description for DomainClass &apos;AccelerometerImageShape&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.AccelerometerImageShape.DisplayName" xml:space="preserve">
+    <value>Accelerometer Image Shape</value>
+    <comment>DisplayName for DomainClass &apos;AccelerometerImageShape&apos;</comment>
+  </data>
+  <data name="AccelerometerImageShapeIdentifierDefaultText" xml:space="preserve">
+    <value>Identifier</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="AccelerometerImageShapeAccelerometerDefaultText" xml:space="preserve">
+    <value>Accelerometer</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsSensorConnector.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerMonitorsSensorConnector</value>
+    <comment>Description for DomainClass &apos;ControllerMonitorsSensorConnector&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsSensorConnector.DisplayName" xml:space="preserve">
+    <value>Controller Monitors Sensor Connector</value>
+    <comment>DisplayName for DomainClass &apos;ControllerMonitorsSensorConnector&apos;</comment>
+  </data>
+  <data name="ControllerMonitorsSensorConnectorMonitorsDefaultText" xml:space="preserve">
+    <value>Monitors</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorMonitorsMeasurementConnector.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.SensorMonitorsMeasurementConnector</value>
+    <comment>Description for DomainClass &apos;SensorMonitorsMeasurementConnector&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.SensorMonitorsMeasurementConnector.DisplayName" xml:space="preserve">
+    <value>Sensor Monitors Measurement Connector</value>
+    <comment>DisplayName for DomainClass &apos;SensorMonitorsMeasurementConnector&apos;</comment>
+  </data>
+  <data name="SensorMonitorsMeasurementConnectorMonitorsDefaultText" xml:space="preserve">
+    <value>Monitors</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsActuatorConnector.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerMonitorsActuatorConnector</value>
+    <comment>Description for DomainClass &apos;ControllerMonitorsActuatorConnector&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerMonitorsActuatorConnector.DisplayName" xml:space="preserve">
+    <value>Controller Monitors Actuator Connector</value>
+    <comment>DisplayName for DomainClass &apos;ControllerMonitorsActuatorConnector&apos;</comment>
+  </data>
+  <data name="ControllerMonitorsActuatorConnectorMonitorsDefaultText" xml:space="preserve">
+    <value>Monitors</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorPerformsActionConnector.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ActuatorPerformsActionConnector</value>
+    <comment>Description for DomainClass &apos;ActuatorPerformsActionConnector&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ActuatorPerformsActionConnector.DisplayName" xml:space="preserve">
+    <value>Actuator Performs Action Connector</value>
+    <comment>DisplayName for DomainClass &apos;ActuatorPerformsActionConnector&apos;</comment>
+  </data>
+  <data name="ActuatorPerformsActionConnectorPerformsDefaultText" xml:space="preserve">
+    <value>Performs</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerTriggersAlarmConnector.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.ControllerTriggersAlarmConnector</value>
+    <comment>Description for DomainClass &apos;ControllerTriggersAlarmConnector&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.ControllerTriggersAlarmConnector.DisplayName" xml:space="preserve">
+    <value>Controller Triggers Alarm Connector</value>
+    <comment>DisplayName for DomainClass &apos;ControllerTriggersAlarmConnector&apos;</comment>
+  </data>
+  <data name="ControllerTriggersAlarmConnectorTriggersDefaultText" xml:space="preserve">
+    <value>Triggers</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>IoT_DSL_AF2 (*.af2)|*.af2</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>IoT_DSL_AF2 Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoT_DSL_AF2Diagram.Description" xml:space="preserve">
+    <value>Description for UPM.IoT_DSL_AF2.IoT_DSL_AF2Diagram</value>
+    <comment>Description for DomainClass &apos;IoT_DSL_AF2Diagram&apos;</comment>
+  </data>
+  <data name="UPM.IoT_DSL_AF2.IoT_DSL_AF2Diagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;IoT_DSL_AF2Diagram&apos;</comment>
+  </data>
+  <data name="IoT_DSL_AF2ToolboxTab" xml:space="preserve">
+    <value>IoT_DSL_AF2</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="IoTDeviceToolboxItem" xml:space="preserve">
+    <value>IoTDevice</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="IoTDeviceToolboxTooltip" xml:space="preserve">
+    <value>Io TDevice</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ControllerToolboxItem" xml:space="preserve">
+    <value>Controller</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ControllerToolboxTooltip" xml:space="preserve">
+    <value>Controller</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="SensorToolboxItem" xml:space="preserve">
+    <value>Sensor</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="SensorToolboxTooltip" xml:space="preserve">
+    <value>Sensor</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ControllerMonitorsSensorToolboxItem" xml:space="preserve">
+    <value>ControllerMonitorsSensor</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ControllerMonitorsSensorToolboxTooltip" xml:space="preserve">
+    <value>Controller Monitors Sensor</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="MeasurementToolboxItem" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="MeasurementToolboxTooltip" xml:space="preserve">
+    <value>Measurement</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="SensorMonitorsMeasurementToolboxItem" xml:space="preserve">
+    <value>SensorMonitorsMeasurement</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="SensorMonitorsMeasurementToolboxTooltip" xml:space="preserve">
+    <value>Sensor Monitors Measurement</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ActuatorToolboxItem" xml:space="preserve">
+    <value>Actuator</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ActuatorToolboxTooltip" xml:space="preserve">
+    <value>Actuator</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ControllerMonitorsActuatorToolboxItem" xml:space="preserve">
+    <value>ControllerMonitorsActuator</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ControllerMonitorsActuatorToolboxTooltip" xml:space="preserve">
+    <value>Controller Monitors Actuator</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ValuesToolboxItem" xml:space="preserve">
+    <value>Values</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ValuesToolboxTooltip" xml:space="preserve">
+    <value>Values</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ActuatorPerformsActionToolboxItem" xml:space="preserve">
+    <value>ActuatorPerformsAction</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ActuatorPerformsActionToolboxTooltip" xml:space="preserve">
+    <value>Actuator Performs Action</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ActionToolboxItem" xml:space="preserve">
+    <value>Action</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ActionToolboxTooltip" xml:space="preserve">
+    <value>Action</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="AlarmToolboxItem" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="AlarmToolboxTooltip" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ControllerTriggersAlarmToolboxItem" xml:space="preserve">
+    <value>ControllerTriggersAlarm</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ControllerTriggersAlarmToolboxTooltip" xml:space="preserve">
+    <value>Controller Triggers Alarm</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="DroneToolboxItem" xml:space="preserve">
+    <value>Drone</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="DroneToolboxTooltip" xml:space="preserve">
+    <value>Drone</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="BusToolboxItem" xml:space="preserve">
+    <value>Bus</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="BusToolboxTooltip" xml:space="preserve">
+    <value>Bus</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="GPSToolboxItem" xml:space="preserve">
+    <value>GPS</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="GPSToolboxTooltip" xml:space="preserve">
+    <value>GPS</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="AirQualitySensorToolboxItem" xml:space="preserve">
+    <value>AirQualitySensor</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="AirQualitySensorToolboxTooltip" xml:space="preserve">
+    <value>Air Quality Sensor</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="AccelerometerToolboxItem" xml:space="preserve">
+    <value>Accelerometer</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="AccelerometerToolboxTooltip" xml:space="preserve">
+    <value>Accelerometer</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ActuatorImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\actuator.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>ActuatorImageShape shape image</comment>
+  </data>
+  <data name="ValueImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\value.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>ValueImageShape shape image</comment>
+  </data>
+  <data name="ControllerImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\controller.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>ControllerImageShape shape image</comment>
+  </data>
+  <data name="SensorImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\sensor.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>SensorImageShape shape image</comment>
+  </data>
+  <data name="ActionImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\action.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>ActionImageShape shape image</comment>
+  </data>
+  <data name="AlarmImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\alarm.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>AlarmImageShape shape image</comment>
+  </data>
+  <data name="DroneImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\drone.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>DroneImageShape shape image</comment>
+  </data>
+  <data name="BusImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\bus.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>BusImageShape shape image</comment>
+  </data>
+  <data name="GPSImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\gps.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>GPSImageShape shape image</comment>
+  </data>
+  <data name="AirQualityImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\airQuality.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>AirQualityImageShape shape image</comment>
+  </data>
+  <data name="AccelerometerImageShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\accelerometer.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>AccelerometerImageShape shape image</comment>
+  </data>
+  <data name="IoTDeviceToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ControllerToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\controller_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="SensorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\sensor_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ControllerMonitorsSensorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="MeasurementToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="SensorMonitorsMeasurementToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ActuatorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\actuator_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ControllerMonitorsActuatorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ValuesToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\value_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ActuatorPerformsActionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ActionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\action_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="AlarmToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\alarm_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ControllerTriggersAlarmToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="DroneToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\drone_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="BusToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\bus_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="GPSToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\gps_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="AirQualitySensorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\airQuality_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="AccelerometerToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\accelerometer _16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

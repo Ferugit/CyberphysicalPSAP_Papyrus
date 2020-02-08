@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{66875203-c1d2-4770-877f-02862afcb5ea}</TemplateID>
+		<Name Package="{f623f501-a65e-4495-b5e8-9402207bc9a9}" ID="103"/>
+		<Description Package="{f623f501-a65e-4495-b5e8-9402207bc9a9}" ID="102"/>
+		<Icon Package="{f623f501-a65e-4495-b5e8-9402207bc9a9}" ID="201" />
+		<ProjectType>CSharp</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>IoT_DSL_AF2.af2</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.af2">af2.af2</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.af2.diagram">af2.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

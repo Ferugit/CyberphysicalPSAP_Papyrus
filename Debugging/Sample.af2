@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<myIoTDSLAF2Model xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="fb5ce602-831b-45cf-aa94-f34670bf1cea" name="PSAP112_AF2" xmlns="http://schemas.microsoft.com/dsltools/IoT_DSL_AF2">
+  <ioTDevice>
+    <myIoTDSLAF2ModelHasIoTDevice Id="1c7ebd83-785c-4b25-81ad-882cddbab93d">
+      <drone Id="647e68b9-4aa2-4eda-863b-0fbfe25e17d1" identifier="0" location="Madrid" name="Drone">
+        <controller>
+          <ioTDeviceHasController Id="00e582a8-626e-4029-9595-2b146c44c016">
+            <controller Id="9a7bf59a-42d7-4ab9-80ff-ea2af9123cff" identifier="0">
+              <sensor>
+                <controllerMonitorsSensor Id="03a279e4-3f5c-468a-b07f-e2652de67b67">
+                  <sensorMoniker Id="7e9adffc-f874-4a47-9490-775ff859b8e8" />
+                </controllerMonitorsSensor>
+                <controllerMonitorsSensor Id="de9f7035-a246-452c-bd85-4b0eb417a5a1">
+                  <gPSMoniker Id="db68891a-77c5-44bc-a7cc-3bdca89051d8" />
+                </controllerMonitorsSensor>
+                <controllerMonitorsSensor Id="b2ae6090-f1a2-4cd2-9c42-6af8f4285920">
+                  <accelerometerMoniker Id="63459450-8a43-413a-a90a-34cccfaadaa7" />
+                </controllerMonitorsSensor>
+              </sensor>
+              <actuator>
+                <controllerMonitorsActuator Id="12612abc-545d-4892-8308-8f34c51bad91">
+                  <actuatorMoniker Id="850b43ed-807d-457a-ad45-15335ad23d9b" />
+                </controllerMonitorsActuator>
+              </actuator>
+              <alarm>
+                <controllerTriggersAlarm Id="f381f0d2-373f-459e-a62c-0754408cf836">
+                  <alarmMoniker Id="f08940fe-cf97-4abb-abdd-c1ec75b3ac25" />
+                </controllerTriggersAlarm>
+              </alarm>
+            </controller>
+          </ioTDeviceHasController>
+        </controller>
+        <sensor>
+          <ioTDeviceHasSensor Id="a391c9ee-9584-4e12-a555-d876489fca2d">
+            <sensor Id="7e9adffc-f874-4a47-9490-775ff859b8e8" identifier="0">
+              <measurement>
+                <sensorMonitorsMesurement Id="c7defab3-2dc0-4e65-a838-08c2e82f4be2">
+                  <measurementMoniker Id="7d461af3-c73d-4857-8dc3-29a5f15f57d9" />
+                </sensorMonitorsMesurement>
+              </measurement>
+            </sensor>
+          </ioTDeviceHasSensor>
+          <ioTDeviceHasSensor Id="a0371d95-84a1-4a84-bb46-2dd6ae21a3e0">
+            <gPS Id="db68891a-77c5-44bc-a7cc-3bdca89051d8" identifier="1">
+              <measurement>
+                <sensorMonitorsMesurement Id="b1482eca-f141-42b6-b39f-1898bafdb27b">
+                  <measurementMoniker Id="c77c9b6e-d3e5-4405-8a87-ddbe16278ebb" />
+                </sensorMonitorsMesurement>
+              </measurement>
+            </gPS>
+          </ioTDeviceHasSensor>
+          <ioTDeviceHasSensor Id="d4a64524-8dba-425c-8b62-2dc14a9ffc26">
+            <accelerometer Id="63459450-8a43-413a-a90a-34cccfaadaa7" identifier="2" />
+          </ioTDeviceHasSensor>
+        </sensor>
+        <actuator>
+          <ioTDeviceHasActuator Id="db2600ae-64ea-4dc6-ba60-1ca7b25e80f7">
+            <actuator Id="850b43ed-807d-457a-ad45-15335ad23d9b" identifier="0">
+              <action>
+                <actuatorPerformsAction Id="4cf56a01-7158-4242-ba93-c029e5afdcd4">
+                  <actionMoniker Id="63dfb44e-8da2-4a9c-bee0-ba1270cb9125" />
+                </actuatorPerformsAction>
+              </action>
+            </actuator>
+          </ioTDeviceHasActuator>
+        </actuator>
+      </drone>
+    </myIoTDSLAF2ModelHasIoTDevice>
+  </ioTDevice>
+  <measurement>
+    <myIoTDSLAF2ModelHasMeasurement Id="2bf175a7-618e-4ace-beaa-336a2a0bcc15">
+      <measurement Id="c77c9b6e-d3e5-4405-8a87-ddbe16278ebb" topic="Position" identifier="1" date="true" hour="false">
+        <values>
+          <measurementHasValues Id="a6409d4f-2882-40eb-9fee-0e314edf8510">
+            <values Id="828158bc-44df-4564-bf66-9f98e46135ca" name="Longitude" scale="Degrees" />
+          </measurementHasValues>
+          <measurementHasValues Id="e3613ddc-1994-4c7f-a5bd-b23799b2c1cd">
+            <values Id="f5f5038a-7faa-4e70-94a4-3a9771603223" name="Latitude" scale="Degrees" />
+          </measurementHasValues>
+        </values>
+      </measurement>
+    </myIoTDSLAF2ModelHasMeasurement>
+    <myIoTDSLAF2ModelHasMeasurement Id="15f52c2a-42cb-46f7-83d8-9eefd7cc69cf">
+      <measurement Id="7d461af3-c73d-4857-8dc3-29a5f15f57d9" topic="ThermographicInfo" identifier="0" date="false" hour="false">
+        <values>
+          <measurementHasValues Id="5d0a2770-2cb8-413b-8ded-214fb40a974e">
+            <values Id="c8a4c05c-c4de-4673-a4bf-f73b99234a00" name="Image" scale="Pixel" />
+          </measurementHasValues>
+        </values>
+      </measurement>
+    </myIoTDSLAF2ModelHasMeasurement>
+  </measurement>
+  <action>
+    <myIoTDSLAF2ModelHasAction Id="e2c46a52-8ffa-4a53-8541-96535034db20">
+      <action Id="63dfb44e-8da2-4a9c-bee0-ba1270cb9125" name="LED" description="Turn ON" />
+    </myIoTDSLAF2ModelHasAction>
+  </action>
+  <alarm>
+    <myIoTDSLAF2ModelHasAlarm Id="42733496-6ac3-4378-9575-d5fe8ace70c3">
+      <alarm Id="f08940fe-cf97-4abb-abdd-c1ec75b3ac25" name="Buzzer" condition="T&gt;20" advertence="Sound" />
+    </myIoTDSLAF2ModelHasAlarm>
+  </alarm>
+</myIoTDSLAF2Model>

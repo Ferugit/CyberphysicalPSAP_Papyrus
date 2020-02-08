@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ioT_DSL_AF2Diagram dslVersion="1.0.0.0" Id="880f683f-f513-4b28-8e6e-857032040988" absoluteBounds="0, 0, 14.75, 8.5" name="Sample">
+  <myIoTDSLAF2ModelMoniker Id="fb5ce602-831b-45cf-aa94-f34670bf1cea" />
+  <nestedChildShapes>
+    <droneImageShape Id="1350f6de-7c79-4327-a56d-be359a92695f" absoluteBounds="5.625, 1.625, 2.3434569835662842, 1.7393659353256226">
+      <droneMoniker Id="647e68b9-4aa2-4eda-863b-0fbfe25e17d1" />
+      <relativeChildShapes />
+    </droneImageShape>
+    <controllerImageShape Id="cbebb71a-e248-41a5-a8ed-25177f76185d" absoluteBounds="6.375, 3.75, 0.8999255895614624, 0.81993216276168823">
+      <controllerMoniker Id="9a7bf59a-42d7-4ab9-80ff-ea2af9123cff" />
+      <relativeChildShapes />
+    </controllerImageShape>
+    <sensorImageShape Id="64c63536-8264-4ecf-b8d0-1c152f14fc88" absoluteBounds="3.625, 4.75, 1.1263631582260132, 0.48423090577125549">
+      <sensorMoniker Id="7e9adffc-f874-4a47-9490-775ff859b8e8" />
+      <relativeChildShapes />
+    </sensorImageShape>
+    <gPSImageShape Id="4f9922e7-66c7-4379-bdbf-a26ff7a6f9b2" absoluteBounds="10.375, 4, 0.92365860939025879, 1.1181130409240723">
+      <gPSMoniker Id="db68891a-77c5-44bc-a7cc-3bdca89051d8" />
+      <relativeChildShapes />
+    </gPSImageShape>
+    <actuatorImageShape Id="d9905a80-daf5-48f9-b5db-76726df03d33" absoluteBounds="0.5, 3.25, 1.0999090671539307, 0.74660491943359375">
+      <actuatorMoniker Id="850b43ed-807d-457a-ad45-15335ad23d9b" />
+      <relativeChildShapes />
+    </actuatorImageShape>
+    <alarmImageShape Id="8336a97e-7c86-47dc-a6d7-2ac809edb2b8" absoluteBounds="7.5, 5.625, 1.1109721660614014, 0.88877773284912109">
+      <alarmMoniker Id="f08940fe-cf97-4abb-abdd-c1ec75b3ac25" />
+      <relativeChildShapes />
+    </alarmImageShape>
+    <controllerMonitorsSensorConnector Id="ff635a65-9d8e-49c2-9b52-44fd19d9de68" edgePoints="[(6.375 : 4.21621879336157); (4.59641249181054 : 4.21621879336157); (4.59641249181054 : 4.75)]" fixedFrom="Algorithm" fixedTo="Caller">
+      <controllerMonitorsSensorMoniker Id="03a279e4-3f5c-468a-b07f-e2652de67b67" />
+      <relativeChildShapes />
+      <nodes>
+        <controllerImageShapeMoniker Id="cbebb71a-e248-41a5-a8ed-25177f76185d" />
+        <sensorImageShapeMoniker Id="64c63536-8264-4ecf-b8d0-1c152f14fc88" />
+      </nodes>
+    </controllerMonitorsSensorConnector>
+    <controllerMonitorsSensorConnector Id="29937c38-fa64-41b8-b03a-b7e7ea9b3c4a" edgePoints="[(7.27492558956146 : 4.48051484186011); (10.375 : 4.48051484186011)]" fixedFrom="Caller" fixedTo="Algorithm">
+      <controllerMonitorsSensorMoniker Id="de9f7035-a246-452c-bd85-4b0eb417a5a1" />
+      <relativeChildShapes />
+      <nodes>
+        <controllerImageShapeMoniker Id="cbebb71a-e248-41a5-a8ed-25177f76185d" />
+        <gPSImageShapeMoniker Id="4f9922e7-66c7-4379-bdbf-a26ff7a6f9b2" />
+      </nodes>
+    </controllerMonitorsSensorConnector>
+    <controllerMonitorsActuatorConnector Id="1f488f30-4fd1-45b7-abce-458251beddfe" edgePoints="[(6.375 : 3.80000042396146); (1.59990906715393 : 3.80000042396146)]" fixedFrom="Caller" fixedTo="Algorithm">
+      <controllerMonitorsActuatorMoniker Id="12612abc-545d-4892-8308-8f34c51bad91" />
+      <relativeChildShapes />
+      <nodes>
+        <controllerImageShapeMoniker Id="cbebb71a-e248-41a5-a8ed-25177f76185d" />
+        <actuatorImageShapeMoniker Id="d9905a80-daf5-48f9-b5db-76726df03d33" />
+      </nodes>
+    </controllerMonitorsActuatorConnector>
+    <actionImageShape Id="37602675-6260-4565-a38a-ddccbd50e878" absoluteBounds="1.5, 4.25, 0.87992721796035767, 1.0265817642211914">
+      <actionMoniker Id="63dfb44e-8da2-4a9c-bee0-ba1270cb9125" />
+      <relativeChildShapes />
+    </actionImageShape>
+    <actuatorPerformsActionConnector Id="5ea3affb-7f3b-43f6-b603-4829cdbbba68" edgePoints="[(0.9999995 : 3.99660491943359); (0.9999995 : 4.7632908821106); (1.5 : 4.7632908821106)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <actuatorPerformsActionMoniker Id="4cf56a01-7158-4242-ba93-c029e5afdcd4" />
+      <relativeChildShapes />
+      <nodes>
+        <actuatorImageShapeMoniker Id="d9905a80-daf5-48f9-b5db-76726df03d33" />
+        <actionImageShapeMoniker Id="37602675-6260-4565-a38a-ddccbd50e878" />
+      </nodes>
+    </actuatorPerformsActionConnector>
+    <controllerTriggersAlarmConnector Id="a0932b6c-c182-4b6a-8089-104b518779e6" edgePoints="[(7.13032061445776 : 4.56993216276169); (7.13032061445776 : 6.06938886642456); (7.5 : 6.06938886642456)]" fixedFrom="Caller" fixedTo="Algorithm">
+      <controllerTriggersAlarmMoniker Id="f381f0d2-373f-459e-a62c-0754408cf836" />
+      <relativeChildShapes />
+      <nodes>
+        <controllerImageShapeMoniker Id="cbebb71a-e248-41a5-a8ed-25177f76185d" />
+        <alarmImageShapeMoniker Id="8336a97e-7c86-47dc-a6d7-2ac809edb2b8" />
+      </nodes>
+    </controllerTriggersAlarmConnector>
+    <measuremetShape Id="987cac4b-c868-4d45-ba40-e3957adfb3d8" absoluteBounds="10.625, 5.5, 3.875, 1.7439925130208325">
+      <measurementMoniker Id="c77c9b6e-d3e5-4405-8a87-ddbe16278ebb" />
+      <relativeChildShapes />
+      <nestedChildShapes>
+        <elementListCompartment Id="b6c04bc1-4c96-4fa3-88d3-c3d93f3ab5f5" absoluteBounds="10.64, 6.51, 3.8449999999999998, 0.63399251302083326" name="Valuekind" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </measuremetShape>
+    <valueImageShape Id="019b59cc-e47a-4b9d-aa35-9eff4ae33b21" absoluteBounds="11.5, 5.625, 0.87489062547683716, 0.84364455938339233">
+      <valuesMoniker Id="828158bc-44df-4564-bf66-9f98e46135ca" />
+    </valueImageShape>
+    <valueImageShape Id="23aa73b6-796f-40ba-a821-7a58c9fc8c8d" absoluteBounds="13, 5.625, 0.87489062547683716, 0.84364455938339233">
+      <valuesMoniker Id="f5f5038a-7faa-4e70-94a4-3a9771603223" />
+    </valueImageShape>
+    <sensorMonitorsMeasurementConnector Id="ab0ed571-b0ba-407a-a9a5-a4a8025154d2" edgePoints="[(10.9618293046951 : 5.11811304092407); (10.9618293046951 : 5.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <sensorMonitorsMesurementMoniker Id="b1482eca-f141-42b6-b39f-1898bafdb27b" />
+      <relativeChildShapes />
+      <nodes>
+        <gPSImageShapeMoniker Id="4f9922e7-66c7-4379-bdbf-a26ff7a6f9b2" />
+        <measuremetShapeMoniker Id="987cac4b-c868-4d45-ba40-e3957adfb3d8" />
+      </nodes>
+    </sensorMonitorsMeasurementConnector>
+    <measuremetShape Id="7140594d-af30-4a56-8759-9d7f90bb9dda" absoluteBounds="1.875, 6.125, 3.125, 1.5516910807291664">
+      <measurementMoniker Id="7d461af3-c73d-4857-8dc3-29a5f15f57d9" />
+      <relativeChildShapes />
+      <nestedChildShapes>
+        <elementListCompartment Id="2a291928-0bb9-4e33-b802-3f6db56dede1" absoluteBounds="1.8900000000000001, 7.135, 3.0949999999999998, 0.44169108072916663" name="Valuekind" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </measuremetShape>
+    <sensorMonitorsMeasurementConnector Id="07bb3f81-4f2a-4d64-9156-ddac4abd622b" edgePoints="[(4.18818157911301 : 5.23423090577126); (4.18818157911301 : 6.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <sensorMonitorsMesurementMoniker Id="c7defab3-2dc0-4e65-a838-08c2e82f4be2" />
+      <relativeChildShapes />
+      <nodes>
+        <sensorImageShapeMoniker Id="64c63536-8264-4ecf-b8d0-1c152f14fc88" />
+        <measuremetShapeMoniker Id="7140594d-af30-4a56-8759-9d7f90bb9dda" />
+      </nodes>
+    </sensorMonitorsMeasurementConnector>
+    <valueImageShape Id="225229b4-8784-4e93-84ea-1b4c82bab5f7" absoluteBounds="3.625, 6.25, 0.87489062547683716, 0.84364455938339233">
+      <valuesMoniker Id="c8a4c05c-c4de-4673-a4bf-f73b99234a00" />
+    </valueImageShape>
+    <accelerometerImageShape Id="c92a881c-16e2-4035-b139-034b57fb4df4" absoluteBounds="9, 2, 1.0764442682266235, 1.1528370380401611">
+      <accelerometerMoniker Id="63459450-8a43-413a-a90a-34cccfaadaa7" />
+      <relativeChildShapes />
+    </accelerometerImageShape>
+    <controllerMonitorsSensorConnector Id="bad5b5e6-be08-42a5-a1e2-1c9c3efdb063" edgePoints="[(7.27492558956146 : 4.08400492093005); (9.53822213411331 : 4.08400492093005); (9.53822213411331 : 3.15283703804016)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <controllerMonitorsSensorMoniker Id="b2ae6090-f1a2-4cd2-9c42-6af8f4285920" />
+      <relativeChildShapes />
+      <nodes>
+        <controllerImageShapeMoniker Id="cbebb71a-e248-41a5-a8ed-25177f76185d" />
+        <accelerometerImageShapeMoniker Id="c92a881c-16e2-4035-b139-034b57fb4df4" />
+      </nodes>
+    </controllerMonitorsSensorConnector>
+  </nestedChildShapes>
+</ioT_DSL_AF2Diagram>

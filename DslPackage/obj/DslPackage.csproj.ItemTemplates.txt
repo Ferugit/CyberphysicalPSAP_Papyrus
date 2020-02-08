@@ -1,0 +1,2 @@
+C:\Users\miot03\Documents\Visual Studio 2015\Templates\ItemTemplates\CSharp\1033\IoT_DSL_AF2.zip
+C:\Users\miot03\Documents\Visual Studio 2015\Templates\ItemTemplates\VisualBasic\1033\IoT_DSL_AF2.zip

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<myIoTDSLAF2Model xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1b2c549a-542b-46f2-b241-14ba93e88907" name="IoTFleet" xmlns="http://schemas.microsoft.com/dsltools/IoT_DSL_AF2">
+  <ioTDevice>
+    <myIoTDSLAF2ModelHasIoTDevice Id="bc7fed49-4f18-417a-84e9-f6df1673ca02">
+      <bus Id="2772e6a9-bff1-4797-9708-10925b4e7589" identifier="0" location="Madrid" name="Bus">
+        <controller>
+          <ioTDeviceHasController Id="27b7a879-25e0-44f4-86f3-00ba42263ab9">
+            <controller Id="630fd4da-8376-4ceb-8ad1-020d8da37b00" identifier="0">
+              <sensor>
+                <controllerMonitorsSensor Id="bd7b5d26-b763-41ad-a122-18ae2c8345bc">
+                  <gPSMoniker Id="a4bbe023-8d4f-4e07-90c3-8992a8df81a6" />
+                </controllerMonitorsSensor>
+                <controllerMonitorsSensor Id="277c4ec3-279e-42e1-a62a-b3e15dc974d2">
+                  <airQualityMoniker Id="d654b79c-f51b-4e7f-81ab-1d1362bf8153" />
+                </controllerMonitorsSensor>
+                <controllerMonitorsSensor Id="8c0c7b8e-70c5-45a3-99a0-afe3fe2c425d">
+                  <accelerometerMoniker Id="3a55a422-1f16-4860-9db7-d82b995caef7" />
+                </controllerMonitorsSensor>
+              </sensor>
+              <actuator>
+                <controllerMonitorsActuator Id="c2e29354-9bc1-4eec-8a6e-599b1ebc5cbd">
+                  <actuatorMoniker Id="a9cad490-832a-4ac9-b928-5030210f8184" />
+                </controllerMonitorsActuator>
+              </actuator>
+              <alarm>
+                <controllerTriggersAlarm Id="c29b659e-8443-4dc5-a59a-2d5472cf2699">
+                  <alarmMoniker Id="6c69f78c-402f-4da8-aceb-05fd56df0adb" />
+                </controllerTriggersAlarm>
+              </alarm>
+            </controller>
+          </ioTDeviceHasController>
+        </controller>
+        <sensor>
+          <ioTDeviceHasSensor Id="a8ab89bf-bbec-4918-b9c9-a36df7ee8d0a">
+            <gPS Id="a4bbe023-8d4f-4e07-90c3-8992a8df81a6" identifier="0" />
+          </ioTDeviceHasSensor>
+          <ioTDeviceHasSensor Id="80a1d867-d361-4aa4-967e-0e7ca5295dd9">
+            <airQuality Id="d654b79c-f51b-4e7f-81ab-1d1362bf8153" identifier="2" />
+          </ioTDeviceHasSensor>
+          <ioTDeviceHasSensor Id="300396b1-0e1f-49db-92bb-ca16253108a7">
+            <accelerometer Id="3a55a422-1f16-4860-9db7-d82b995caef7" identifier="1">
+              <measurement>
+                <sensorMonitorsMesurement Id="10ba88fa-b1a0-4e97-ae4a-5d82474ab425">
+                  <measurementMoniker Id="9759c83b-c51a-4622-a824-c52d612a18fc" />
+                </sensorMonitorsMesurement>
+              </measurement>
+            </accelerometer>
+          </ioTDeviceHasSensor>
+        </sensor>
+        <actuator>
+          <ioTDeviceHasActuator Id="f9507c59-61f9-48d6-9154-c47908d20dd4">
+            <actuator Id="a9cad490-832a-4ac9-b928-5030210f8184" identifier="0">
+              <action>
+                <actuatorPerformsAction Id="0824939a-45e9-4455-8ca6-92e63fc3eff4">
+                  <actionMoniker Id="7581d5a4-1fdf-451b-850b-78746807fd7b" />
+                </actuatorPerformsAction>
+              </action>
+            </actuator>
+          </ioTDeviceHasActuator>
+        </actuator>
+      </bus>
+    </myIoTDSLAF2ModelHasIoTDevice>
+  </ioTDevice>
+  <measurement>
+    <myIoTDSLAF2ModelHasMeasurement Id="edca22ed-17b5-4dd2-a9c4-221c2a1a3b3e">
+      <measurement Id="9759c83b-c51a-4622-a824-c52d612a18fc" topic="Speed" identifier="0" date="false" hour="false">
+        <values>
+          <measurementHasValues Id="2fc2096b-38c2-43ec-bc5f-6a6972e2f4c4">
+            <values Id="0014f264-582e-455f-b188-33a5c70f21d3" name="Speed" scale="m/s" />
+          </measurementHasValues>
+        </values>
+      </measurement>
+    </myIoTDSLAF2ModelHasMeasurement>
+  </measurement>
+  <action>
+    <myIoTDSLAF2ModelHasAction Id="85986357-ce95-4759-9ee7-728d3b622c66">
+      <action Id="7581d5a4-1fdf-451b-850b-78746807fd7b" name="Locate" description="Send Pos" />
+    </myIoTDSLAF2ModelHasAction>
+  </action>
+  <alarm>
+    <myIoTDSLAF2ModelHasAlarm Id="ce3d2a3e-6ece-40f4-a2f7-be106de7f2e9">
+      <alarm Id="6c69f78c-402f-4da8-aceb-05fd56df0adb" />
+    </myIoTDSLAF2ModelHasAlarm>
+  </alarm>
+</myIoTDSLAF2Model>

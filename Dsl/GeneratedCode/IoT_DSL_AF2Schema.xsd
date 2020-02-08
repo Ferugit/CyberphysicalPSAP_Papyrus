@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema id="IoT_DSL_AF2Schema" targetNamespace="http://schemas.microsoft.com/dsltools/IoT_DSL_AF2" elementFormDefault="qualified" xmlns="http://schemas.microsoft.com/dsltools/IoT_DSL_AF2" xmlns:core="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import id="CoreSchema" namespace="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" />
+  <!-- MyIoTDSLAF2Model -->
+  <xsd:element name="myIoTDSLAF2Model" type="MyIoTDSLAF2Model" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="MyIoTDSLAF2Model">
+    <xsd:annotation>
+      <xsd:documentation>The root in which all other elements are embedded. Appears as a diagram.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Relationship: MyIoTDSLAF2ModelHasIoTDevice -->
+          <xsd:element name="ioTDevice" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of MyIoTDSLAF2ModelHasIoTDevice</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="myIoTDSLAF2ModelHasIoTDevice" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of MyIoTDSLAF2ModelHasIoTDevice needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: MyIoTDSLAF2ModelHasMeasurement -->
+          <xsd:element name="measurement" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of MyIoTDSLAF2ModelHasMeasurement</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="myIoTDSLAF2ModelHasMeasurement" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of MyIoTDSLAF2ModelHasMeasurement needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: MyIoTDSLAF2ModelHasAction -->
+          <xsd:element name="action" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of MyIoTDSLAF2ModelHasAction</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="myIoTDSLAF2ModelHasAction" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of MyIoTDSLAF2ModelHasAction needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: MyIoTDSLAF2ModelHasAlarm -->
+          <xsd:element name="alarm" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of MyIoTDSLAF2ModelHasAlarm</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="myIoTDSLAF2ModelHasAlarm" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of MyIoTDSLAF2ModelHasAlarm needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- dslVersion -->
+        <xsd:attribute name="dslVersion" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Version of the model serialized in this file.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MyIoTDSLAF2Model Moniker -->
+  <xsd:element name="myIoTDSLAF2ModelMoniker" type="MyIoTDSLAF2ModelMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="MyIoTDSLAF2ModelMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for MyIoTDSLAF2Model instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Controller -->
+  <xsd:element name="controller" type="Controller" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="Controller">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Relationship: ControllerMonitorsSensor -->
+          <xsd:element name="sensor" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of ControllerMonitorsSensor</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="controllerMonitorsSensor" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of ControllerMonitorsSensor needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: ControllerMonitorsActuator -->
+          <xsd:element name="actuator" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of ControllerMonitorsActuator</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="controllerMonitorsActuator" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of ControllerMonitorsActuator needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: ControllerTriggersAlarm -->
+          <xsd:element name="alarm" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of ControllerTriggersAlarm</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="controllerTriggersAlarm" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of ControllerTriggersAlarm needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Identifier -->
+        <xsd:attribute name="identifier" type="xsd:integer" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Controller Moniker -->
+  <xsd:element name="controllerMoniker" type="ControllerMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="ControllerMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for Controller instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- IoTDevice -->
+  <xsd:element name="ioTDevice" type="IoTDevice" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="IoTDevice">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Relationship: IoTDeviceHasController -->
+          <xsd:element name="controller" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of IoTDeviceHasController</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="ioTDeviceHasController" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of IoTDeviceHasController needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: IoTDeviceHasSensor -->
+          <xsd:element name="sensor" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of IoTDeviceHasSensor</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="ioTDeviceHasSensor" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of IoTDeviceHasSensor needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: IoTDeviceHasActuator -->
+          <xsd:element name="actuator" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of IoTDeviceHasActuator</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="ioTDeviceHasActuator" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of IoTDeviceHasActuator needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Identifier -->
+        <xsd:attribute name="identifier" type="xsd:integer" />
+        <!-- Property: Location -->
+        <xsd:attribute name="location" type="xsd:string" />
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- IoTDevice Moniker -->
+  <xsd:element name="ioTDeviceMoniker" type="IoTDeviceMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="IoTDeviceMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for IoTDevice instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Sensor -->
+  <xsd:element name="sensor" type="Sensor" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="Sensor">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Relationship: SensorMonitorsMesurement -->
+          <xsd:element name="measurement" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of SensorMonitorsMesurement</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="sensorMonitorsMesurement" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of SensorMonitorsMesurement needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Identifier -->
+        <xsd:attribute name="identifier" type="xsd:integer" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Sensor Moniker -->
+  <xsd:element name="sensorMoniker" type="SensorMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="SensorMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for Sensor instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Measurement -->
+  <xsd:element name="measurement" type="Measurement" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="Measurement">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Relationship: MeasurementHasValues -->
+          <xsd:element name="values" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of MeasurementHasValues</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="measurementHasValues" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of MeasurementHasValues needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Topic -->
+        <xsd:attribute name="topic" type="xsd:string" />
+        <!-- Property: Identifier -->
+        <xsd:attribute name="identifier" type="xsd:integer" />
+        <!-- Property: Date -->
+        <xsd:attribute name="date" type="xsd:boolean" />
+        <!-- Property: Hour -->
+        <xsd:attribute name="hour" type="xsd:boolean" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Measurement Moniker -->
+  <xsd:element name="measurementMoniker" type="MeasurementMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="MeasurementMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for Measurement instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Actuator -->
+  <xsd:element name="actuator" type="Actuator" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="Actuator">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Relationship: ActuatorPerformsAction -->
+          <xsd:element name="action" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of ActuatorPerformsAction</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="actuatorPerformsAction" minOccurs="1" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of ActuatorPerformsAction needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Identifier -->
+        <xsd:attribute name="identifier" type="xsd:integer" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Actuator Moniker -->
+  <xsd:element name="actuatorMoniker" type="ActuatorMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="ActuatorMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for Actuator instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Values -->
+  <xsd:element name="values" type="Values" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="Values">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+        <!-- Property: Scale -->
+        <xsd:attribute name="scale" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Values Moniker -->
+  <xsd:element name="valuesMoniker" type="ValuesMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="ValuesMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for Values instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Action -->
+  <xsd:element name="action" type="Action" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="Action">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+        <!-- Property: Description -->
+        <xsd:attribute name="description" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Action Moniker -->
+  <xsd:element name="actionMoniker" type="ActionMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="ActionMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for Action instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Alarm -->
+  <xsd:element name="alarm" type="Alarm" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="Alarm">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+        <!-- Property: Condition -->
+        <xsd:attribute name="condition" type="xsd:string" />
+        <!-- Property: Advertence -->
+        <xsd:attribute name="advertence" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Alarm Moniker -->
+  <xsd:element name="alarmMoniker" type="AlarmMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="AlarmMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for Alarm instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Drone -->
+  <xsd:element name="drone" type="Drone" substitutionGroup="ioTDevice" />
+  <xsd:complexType name="Drone">
+    <xsd:complexContent>
+      <xsd:extension base="IoTDevice">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Drone Moniker -->
+  <xsd:element name="droneMoniker" type="DroneMoniker" substitutionGroup="ioTDeviceMoniker" />
+  <xsd:complexType name="DroneMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for Drone instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="IoTDeviceMoniker">
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Bus -->
+  <xsd:element name="bus" type="Bus" substitutionGroup="ioTDevice" />
+  <xsd:complexType name="Bus">
+    <xsd:complexContent>
+      <xsd:extension base="IoTDevice">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Bus Moniker -->
+  <xsd:element name="busMoniker" type="BusMoniker" substitutionGroup="ioTDeviceMoniker" />
+  <xsd:complexType name="BusMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for Bus instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="IoTDeviceMoniker">
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- GPS -->
+  <xsd:element name="gPS" type="GPS" substitutionGroup="sensor" />
+  <xsd:complexType name="GPS">
+    <xsd:complexContent>
+      <xsd:extension base="Sensor">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- GPS Moniker -->
+  <xsd:element name="gPSMoniker" type="GPSMoniker" substitutionGroup="sensorMoniker" />
+  <xsd:complexType name="GPSMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for GPS instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="SensorMoniker">
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- AirQuality -->
+  <xsd:element name="airQuality" type="AirQuality" substitutionGroup="sensor" />
+  <xsd:complexType name="AirQuality">
+    <xsd:complexContent>
+      <xsd:extension base="Sensor">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- AirQuality Moniker -->
+  <xsd:element name="airQualityMoniker" type="AirQualityMoniker" substitutionGroup="sensorMoniker" />
+  <xsd:complexType name="AirQualityMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for AirQuality instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="SensorMoniker">
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Accelerometer -->
+  <xsd:element name="accelerometer" type="Accelerometer" substitutionGroup="sensor" />
+  <xsd:complexType name="Accelerometer">
+    <xsd:complexContent>
+      <xsd:extension base="Sensor">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- Accelerometer Moniker -->
+  <xsd:element name="accelerometerMoniker" type="AccelerometerMoniker" substitutionGroup="sensorMoniker" />
+  <xsd:complexType name="AccelerometerMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for Accelerometer instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="SensorMoniker">
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MyIoTDSLAF2ModelHasIoTDevice -->
+  <xsd:element name="myIoTDSLAF2ModelHasIoTDevice" type="MyIoTDSLAF2ModelHasIoTDevice" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="MyIoTDSLAF2ModelHasIoTDevice">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end IoTDevice -->
+          <xsd:element ref="ioTDevice" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MyIoTDSLAF2ModelHasIoTDevice Moniker -->
+  <xsd:element name="myIoTDSLAF2ModelHasIoTDeviceMoniker" type="MyIoTDSLAF2ModelHasIoTDeviceMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="MyIoTDSLAF2ModelHasIoTDeviceMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for MyIoTDSLAF2ModelHasIoTDevice instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- IoTDeviceHasController -->
+  <xsd:element name="ioTDeviceHasController" type="IoTDeviceHasController" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="IoTDeviceHasController">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Controller -->
+          <xsd:element ref="controller" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- IoTDeviceHasController Moniker -->
+  <xsd:element name="ioTDeviceHasControllerMoniker" type="IoTDeviceHasControllerMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="IoTDeviceHasControllerMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for IoTDeviceHasController instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- ControllerMonitorsSensor -->
+  <xsd:element name="controllerMonitorsSensor" type="ControllerMonitorsSensor" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="ControllerMonitorsSensor">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Sensor -->
+          <xsd:element ref="sensorMoniker" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- ControllerMonitorsSensor Moniker -->
+  <xsd:element name="controllerMonitorsSensorMoniker" type="ControllerMonitorsSensorMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="ControllerMonitorsSensorMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for ControllerMonitorsSensor instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- IoTDeviceHasSensor -->
+  <xsd:element name="ioTDeviceHasSensor" type="IoTDeviceHasSensor" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="IoTDeviceHasSensor">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Sensor -->
+          <xsd:element ref="sensor" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- IoTDeviceHasSensor Moniker -->
+  <xsd:element name="ioTDeviceHasSensorMoniker" type="IoTDeviceHasSensorMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="IoTDeviceHasSensorMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for IoTDeviceHasSensor instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- SensorMonitorsMesurement -->
+  <xsd:element name="sensorMonitorsMesurement" type="SensorMonitorsMesurement" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="SensorMonitorsMesurement">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Measurement -->
+          <xsd:element ref="measurementMoniker" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- SensorMonitorsMesurement Moniker -->
+  <xsd:element name="sensorMonitorsMesurementMoniker" type="SensorMonitorsMesurementMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="SensorMonitorsMesurementMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for SensorMonitorsMesurement instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- IoTDeviceHasActuator -->
+  <xsd:element name="ioTDeviceHasActuator" type="IoTDeviceHasActuator" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="IoTDeviceHasActuator">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Actuator -->
+          <xsd:element ref="actuator" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- IoTDeviceHasActuator Moniker -->
+  <xsd:element name="ioTDeviceHasActuatorMoniker" type="IoTDeviceHasActuatorMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="IoTDeviceHasActuatorMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for IoTDeviceHasActuator instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- ControllerMonitorsActuator -->
+  <xsd:element name="controllerMonitorsActuator" type="ControllerMonitorsActuator" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="ControllerMonitorsActuator">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Actuator -->
+          <xsd:element ref="actuatorMoniker" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- ControllerMonitorsActuator Moniker -->
+  <xsd:element name="controllerMonitorsActuatorMoniker" type="ControllerMonitorsActuatorMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="ControllerMonitorsActuatorMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for ControllerMonitorsActuator instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MyIoTDSLAF2ModelHasMeasurement -->
+  <xsd:element name="myIoTDSLAF2ModelHasMeasurement" type="MyIoTDSLAF2ModelHasMeasurement" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="MyIoTDSLAF2ModelHasMeasurement">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Measurement -->
+          <xsd:element ref="measurement" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MyIoTDSLAF2ModelHasMeasurement Moniker -->
+  <xsd:element name="myIoTDSLAF2ModelHasMeasurementMoniker" type="MyIoTDSLAF2ModelHasMeasurementMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="MyIoTDSLAF2ModelHasMeasurementMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for MyIoTDSLAF2ModelHasMeasurement instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MeasurementHasValues -->
+  <xsd:element name="measurementHasValues" type="MeasurementHasValues" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="MeasurementHasValues">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Values -->
+          <xsd:element ref="values" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MeasurementHasValues Moniker -->
+  <xsd:element name="measurementHasValuesMoniker" type="MeasurementHasValuesMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="MeasurementHasValuesMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for MeasurementHasValues instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MyIoTDSLAF2ModelHasAction -->
+  <xsd:element name="myIoTDSLAF2ModelHasAction" type="MyIoTDSLAF2ModelHasAction" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="MyIoTDSLAF2ModelHasAction">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Action -->
+          <xsd:element ref="action" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MyIoTDSLAF2ModelHasAction Moniker -->
+  <xsd:element name="myIoTDSLAF2ModelHasActionMoniker" type="MyIoTDSLAF2ModelHasActionMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="MyIoTDSLAF2ModelHasActionMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for MyIoTDSLAF2ModelHasAction instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- ActuatorPerformsAction -->
+  <xsd:element name="actuatorPerformsAction" type="ActuatorPerformsAction" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="ActuatorPerformsAction">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Action -->
+          <xsd:element ref="actionMoniker" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- ActuatorPerformsAction Moniker -->
+  <xsd:element name="actuatorPerformsActionMoniker" type="ActuatorPerformsActionMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="ActuatorPerformsActionMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for ActuatorPerformsAction instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MyIoTDSLAF2ModelHasAlarm -->
+  <xsd:element name="myIoTDSLAF2ModelHasAlarm" type="MyIoTDSLAF2ModelHasAlarm" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="MyIoTDSLAF2ModelHasAlarm">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Alarm -->
+          <xsd:element ref="alarm" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- MyIoTDSLAF2ModelHasAlarm Moniker -->
+  <xsd:element name="myIoTDSLAF2ModelHasAlarmMoniker" type="MyIoTDSLAF2ModelHasAlarmMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="MyIoTDSLAF2ModelHasAlarmMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for MyIoTDSLAF2ModelHasAlarm instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- ControllerTriggersAlarm -->
+  <xsd:element name="controllerTriggersAlarm" type="ControllerTriggersAlarm" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="ControllerTriggersAlarm">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end Alarm -->
+          <xsd:element ref="alarmMoniker" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- ControllerTriggersAlarm Moniker -->
+  <xsd:element name="controllerTriggersAlarmMoniker" type="ControllerTriggersAlarmMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="ControllerTriggersAlarmMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for ControllerTriggersAlarm instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+</xsd:schema>
+

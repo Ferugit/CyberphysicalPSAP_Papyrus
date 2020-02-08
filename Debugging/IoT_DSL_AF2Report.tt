@@ -1,0 +1,106 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".sql" #>
+<#@ IoT_DSL_AF2 processor="IoT_DSL_AF2DirectiveProcessor" requires="fileName='Sample_2.af2'" #>
+
+Generated material. Generating code in SQL.
+
+<#
+  // When you change the DSL Definition, some of the code below may not work.
+	
+
+
+	//Generate the DB for all the IoTDevices
+	WriteLine("-- Create DB and use it");
+	WriteLine("CREATE DATABASE " + this.MyIoTDSLAF2Model.Name +";");
+	WriteLine("USE " + this.MyIoTDSLAF2Model.Name +";");
+
+	WriteLine("");
+	WriteLine("-- Create the static tables");
+	//Create Table IoT Devices
+	WriteLine("CREATE TABLE IF NOT EXISTS IoTDevice (Name CHAR(20) NOT NULL, Location CHAR(20) NOT NULL, PRIMARY KEY(Name));");
+	
+	//Create Table for Sensor
+	WriteLine("CREATE TABLE IF NOT EXISTS Sensor (idSensor CHAR(20) NOT NULL, Device CHAR(20) NOT NULL, PRIMARY KEY(Device, idSensor), FOREIGN KEY(Device) REFERENCES IoTDevice(Name));");
+	
+	//Create Table for Measurement
+	WriteLine("CREATE TABLE IF NOT EXISTS Measure (idMeasure CHAR(20) NOT NULL, kind CHAR(20) NOT NULL, date BOOLEAN NOT NULL, hour BOOLEAN NOT NULL, PRIMARY KEY(idMeasure));");
+
+	//Create table for value
+	WriteLine("CREATE TABLE IF NOT EXISTS Value (Name CHAR(20) NOT NULL, Scale CHAR(20) NOT NULL, Measure CHAR(20), PRIMARY KEY(Name), FOREIGN KEY(Measure) REFERENCES Measure(idMeasure));");
+
+	WriteLine("");
+	WriteLine("-- Create the tables depending on the drawing: data measurements");
+
+
+	//Generate a table for each IoTDevice
+	foreach (IoTDevice iotd in this.MyIoTDSLAF2Model.IoTDevice){
+
+		foreach (Sensor s in  iotd.Sensor){
+			
+			WriteLine("CREATE TABLE IF NOT EXISTS Values" + iotd.Name + s.Identifier +"");
+			WriteLine("	(idvalue INT AUTO_INCREMENT,");
+			WriteLine("	Device CHAR(20) NOT NULL,");
+			WriteLine("	idSensor CHAR(20) NOT NULL,");
+
+			foreach (Measurement m in s.Measurement){
+			
+				if(m.Date){
+					WriteLine("	date DATE NOT NULL,");
+				} 
+
+				if(m.Hour){
+					WriteLine("	hour TIME NOT NULL,");
+				}
+
+				foreach (Values v in m.Values){
+					WriteLine("	" + v.Name + " CHAR(20) NOT NULL,");
+				}
+			}
+
+			WriteLine("	PRIMARY KEY(idvalue),");
+			WriteLine("	FOREIGN KEY(Device, idSensor) REFERENCES Sensor(Device, idSensor));");
+
+			WriteLine("");
+		}
+	  }
+
+
+	// DATA INGEST
+	WriteLine("");
+	WriteLine("-- Generate the insertions depending on the drawing");
+
+	//Depending on the elements that have been drawn
+	foreach (IoTDevice iotd in this.MyIoTDSLAF2Model.IoTDevice){
+		
+		//Insert the IoT Devices in the tables that has been created
+		WriteLine("INSERT INTO `iotdevice`(`Name`, `Location`) VALUES('" + iotd.Name + "', '" + iotd.Location + "');");
+		WriteLine("");
+
+		//Insert the sensors
+		foreach (Sensor s in  iotd.Sensor){
+			
+			WriteLine("INSERT INTO `sensor`(`idSensor`, `Device`) VALUES('" + s.Identifier + "', '" + iotd.Name + "');");
+
+
+			foreach (Measurement m in s.Measurement){
+				
+				WriteLine("INSERT INTO `measure`(`idMeasure`, `kind`, `date`, `hour`) VALUES('" + m.Identifier + "', '" + m.Topic + "', '" + m.Date + "', '" + m.Hour + "');");
+
+				foreach (Values v in m.Values){
+					WriteLine("INSERT INTO `value`(`Name`, `Scale`, `Measure`) VALUES('" + v.Name + "', '" + v.Scale + "', '" + m.Identifier + "');");
+				}
+
+			}
+			WriteLine("");
+
+		}
+	}
+
+	
+	//WriteLine("INSERT INTO `iotdevice`(`Name`, `Location`) VALUES('MyDron', 'Madrid');");
+	//WriteLine("INSERT INTO `sensor`(`idSensor`, `Device`) VALUES(1,'MyDron');");
+	//WriteLine("INSERT INTO `measure`(`idMeasure`, `kind`, `date`, `hour`) VALUES(1,'Autonomia','True','False');");
+	//WriteLine("INSERT INTO `value`(`Name`, `Scale`, `Measure`) VALUES('Distancia', 'Km', '1');");
+	//WriteLine("INSERT INTO `value`(`Name`, `Scale`, `Measure`) VALUES('Combustible', 'Litro','1');");
+	//WriteLine("INSERT INTO `valuesmyDrone1`(`Device`,`Distance`, `Fuel`, `date`, `hour`, `idSensor`) VALUES ('MyDron', '10', '30', '2019-02-06', '20:22:00', 1);");
+#>

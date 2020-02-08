@@ -1,0 +1,10 @@
+C:\Users\miot03\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\Debugging\bin\Debug\Debugging.dll
+C:\Users\miot03\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\Debugging\bin\Debug\Debugging.pdb
+C:\Users\miot03\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\Debugging\obj\Debug\Debugging.csprojResolveAssemblyReference.cache
+C:\Users\miot03\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\Debugging\obj\Debug\Debugging.dll
+C:\Users\miot03\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\Debugging\obj\Debug\Debugging.pdb
+C:\Users\miot03\Downloads\IoT_DSL_AF2\Debugging\bin\Debug\Debugging.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\Debugging\bin\Debug\Debugging.pdb
+C:\Users\miot03\Downloads\IoT_DSL_AF2\Debugging\obj\Debug\Debugging.csprojResolveAssemblyReference.cache
+C:\Users\miot03\Downloads\IoT_DSL_AF2\Debugging\obj\Debug\Debugging.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\Debugging\obj\Debug\Debugging.pdb

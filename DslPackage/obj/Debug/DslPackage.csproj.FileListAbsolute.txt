@@ -1,0 +1,368 @@
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\CSharp\1033\IoT_DSL_AF2.zip
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\VisualBasic\1033\IoT_DSL_AF2.zip
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\GeneratedCode\IoT_DSL_AF2Schema.xsd
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.pdb
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.pkgdef
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.vsix
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\extension.vsixmanifest
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.14.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.14.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Shell.14.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.14.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.12.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.14.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.VSHost.14.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.Dsl.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Design.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Utilities.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Threading.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Imaging.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ImageCatalog.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\VsWebSite.Interop.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\VSLangProj.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\VsWebSite.Interop90.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE80.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.MSXML.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\stdole.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Newtonsoft.Json.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.CoreUtility.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE90.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.Dsl.pdb
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.14.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.14.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Shell.14.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.14.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.14.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.VSHost.14.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.12.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Design.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Utilities.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Threading.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Imaging.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ImageCatalog.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.CoreUtility.xml
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\DslPackage.csprojResolveAssemblyReference.cache
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\VSPackage.resources
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\Commands.cto
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\VSCT.read.1.tlog
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\VSCT.write.1.tlog
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\CtoResourceMerger.cache
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\VSPackage.resources.original
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.dll
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.pdb
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.pkgdef
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.latest.pkgdef
+c:\users\miot03\documents\visual studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\extension.vsixmanifest
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\CSharp\1033\IoT_DSL_AF2.zip
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\VisualBasic\1033\IoT_DSL_AF2.zip
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\GeneratedCode\IoT_DSL_AF2Schema.xsd
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.pdb
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.pkgdef
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.vsix
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\extension.vsixmanifest
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.14.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.14.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Shell.14.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.14.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.12.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.14.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.VSHost.14.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.Dsl.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Design.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Utilities.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Threading.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Imaging.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ImageCatalog.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\VsWebSite.Interop.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\VSLangProj.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\VsWebSite.Interop90.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE80.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.MSXML.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\stdole.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.CoreUtility.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE90.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.Dsl.pdb
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.14.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.14.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Shell.14.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.14.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.14.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.VSHost.14.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.12.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Design.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Utilities.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Threading.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Imaging.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ImageCatalog.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.CoreUtility.xml
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\DslPackage.csprojResolveAssemblyReference.cache
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\VSPackage.resources
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\Commands.cto
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\VSCT.read.1.tlog
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\VSCT.write.1.tlog
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\CtoResourceMerger.cache
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\VSPackage.resources.original
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.dll
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.pdb
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.pkgdef
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.latest.pkgdef
+C:\Users\miot03\Downloads\IoT_DSL_AF2\DslPackage\obj\Debug\extension.vsixmanifest
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\CSharp\1033\IoT_DSL_AF2.zip
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\VisualBasic\1033\IoT_DSL_AF2.zip
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\GeneratedCode\IoT_DSL_AF2Schema.xsd
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.pdb
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.pkgdef
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.vsix
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\extension.vsixmanifest
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.14.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.14.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Shell.14.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.14.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.12.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.14.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.VSHost.14.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.Dsl.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Design.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Utilities.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Threading.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Imaging.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ImageCatalog.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\VsWebSite.Interop.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\VSLangProj.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\VsWebSite.Interop90.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE80.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.MSXML.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\stdole.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.CoreUtility.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE90.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.Dsl.pdb
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.14.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.14.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Shell.14.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.14.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.14.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.VSHost.14.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.12.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Design.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Utilities.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Threading.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Imaging.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ImageCatalog.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.CoreUtility.xml
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\DslPackage.csprojResolveAssemblyReference.cache
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\VSPackage.resources
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\Commands.cto
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\VSCT.read.1.tlog
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\VSCT.write.1.tlog
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\CtoResourceMerger.cache
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\VSPackage.resources.original
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.dll
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.pdb
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.pkgdef
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.latest.pkgdef
+C:\Users\aron\Documents\Visual Studio 2015\Projects\IoT_DSL_AF2\DslPackage\obj\Debug\extension.vsixmanifest
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\CSharp\1033\IoT_DSL_AF2.zip
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\VisualBasic\1033\IoT_DSL_AF2.zip
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\GeneratedCode\IoT_DSL_AF2Schema.xsd
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.pdb
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.pkgdef
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.DslPackage.vsix
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\extension.vsixmanifest
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.14.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.14.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Shell.14.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.14.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.12.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.14.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.VSHost.14.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.Dsl.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Design.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Utilities.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Threading.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Imaging.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ImageCatalog.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\VsWebSite.Interop.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\VSLangProj.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\VsWebSite.Interop90.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE80.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.MSXML.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\stdole.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.CoreUtility.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\EnvDTE90.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\UPM.IoT_DSL_AF2.Dsl.pdb
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.14.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.14.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Shell.14.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.14.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.14.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextTemplating.VSHost.14.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Interop.12.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Design.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Utilities.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Threading.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Imaging.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.ImageCatalog.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\Microsoft.VisualStudio.CoreUtility.xml
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\DslPackage.csprojResolveAssemblyReference.cache
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\VSPackage.resources
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\Commands.cto
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\VSCT.read.1.tlog
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\VSCT.write.1.tlog
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\CtoResourceMerger.cache
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\VSPackage.resources.original
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.dll
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.pdb
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.pkgdef
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\UPM.IoT_DSL_AF2.DslPackage.latest.pkgdef
+C:\Users\miot03\Desktop\IoT_DSL_AF2\DslPackage\obj\Debug\extension.vsixmanifest
